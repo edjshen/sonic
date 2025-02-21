@@ -1,0 +1,7 @@
+pyperclip
+pandas
+numpy
+streamlit
+datetime
+requests
+miditime
