@@ -209,7 +209,6 @@ if st.button("Generate Composition", type="primary"):
 if 'midi_data' in st.session_state:
     midi_data = st.session_state.midi_data
     
-    # Audio Preview
     st.audio(midi_data['bytes'], format='audio/midi')
     
     col1, col2 = st.columns([1, 2])
